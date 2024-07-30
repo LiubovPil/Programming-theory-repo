@@ -36,8 +36,8 @@ public class Animal : MonoBehaviour
     //    animator.SetTrigger("Walk");
     //}
 
-    //protected virtual void Talk()
-    //{
+    protected virtual void Talk()
+    {
 
-    //}
+    }
 }

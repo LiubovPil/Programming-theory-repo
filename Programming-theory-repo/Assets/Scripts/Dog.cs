@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class Dog : Animal
 {
-    //protected override void Talk()
-    //{
-    //    Debug.Log($"{AnimalName} says woof");
-    //}
+    protected override void Talk()
+    {
+        Debug.Log($"{AnimalName} says woof");
+    }
 }
