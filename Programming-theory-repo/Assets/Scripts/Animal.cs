@@ -7,24 +7,24 @@ public class Animal : MonoBehaviour
 
     private string animalName = string.Empty;
 
-    //public string AnimalName
-    //{
-    //    get
-    //    {
-    //        return name;
-    //    }
-    //    set
-    //    {
-    //        if (value.Length <= 10)
-    //        {
-    //            name = value;
-    //        }
-    //        else
-    //        {
-    //            Debug.LogWarning("Animal name is too long!");
-    //        }
-    //    }
-    //}
+    public string AnimalName
+    {
+        get
+        {
+            return name;
+        }
+        set
+        {
+            if (value.Length <= 10)
+            {
+                name = value;
+            }
+            else
+            {
+                Debug.LogWarning("Animal name is too long!");
+            }
+        }
+    }
 
     //protected virtual void Jump()
     //{
