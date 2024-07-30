@@ -26,15 +26,15 @@ public class Animal : MonoBehaviour
         }
     }
 
-    //protected virtual void Jump()
-    //{
-    //    animator.SetTrigger("Jump");
-    //}
+    protected virtual void Jump()
+    {
+        animator.SetTrigger("Jump");
+    }
 
-    //protected virtual void Walk()
-    //{
-    //    animator.SetTrigger("Walk");
-    //}
+    protected virtual void Walk()
+    {
+        animator.SetTrigger("Walk");
+    }
 
     protected virtual void Talk()
     {
